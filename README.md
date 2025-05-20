@@ -1,7 +1,6 @@
 # Simulating a 2-Wheel Differential Drive URDF Robot with Nav2
 
-🔗 **Jump to testing directly** → [Testing Steps]((https://github.com/pratikhrohane/ros2-diffbot-navigation?tab=readme-ov-file#-testing-the-complete-robot))
-
+🔗 **Jump to testing directly** → [Testing Steps](https://github.com/pratikhrohane/ros2-diffbot-navigation?tab=readme-ov-file#-testing-the-complete-robot)
 ---
 
 ## 🚀 Overview
