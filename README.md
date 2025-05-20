@@ -125,7 +125,7 @@ Saved to: `map/map.yaml`, `map.pgm`
 
 **File:** `param/nav2_params.yaml`
 
-Parameter file sourced from community GitHub repo (can customize)
+Parameter file sourced from community GitHub repo
 
 Launch Navigation Stack:
 
