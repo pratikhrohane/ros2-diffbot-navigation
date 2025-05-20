@@ -1,12 +1,12 @@
 #Simulating a 2-Wheel Differential Drive URDF Robot with Nav2
 
-🔗 **Jump to testing directly** → [Testing Steps](## 📈 Testing the Complete Robot)
+🔗 **Jump to testing directly** → [Testing Steps]([## 📈 Testing the Complete Robot](https://github.com/pratikhrohane/ros2-diffbot-navigation?tab=readme-ov-file#-testing-the-complete-robot))
 
 ---
 
 ## 🚀 Overview
 
-This guide will help you build a complete Nav2-enabled simulation of a 2-wheel differential drive robot from scratch. It includes building the URDF, creating a custom Gazebo world, adding essential sensors, mapping, localization, and navigation with obstacle avoidance.
+It includes building the URDF, creating a custom Gazebo world, adding essential sensors, mapping, localization, and navigation with obstacle avoidance.
 
 ## 🧱 Folder Structure
 
@@ -174,7 +174,3 @@ This internally loads `nav2_bringup/bringup_launch.py` and opens RViz with confi
 ---
 
 ## ✅ Done!
-
-You now have a fully simulated differential drive robot with navigation, obstacle avoidance, and visualization.
-
----
