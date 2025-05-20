@@ -49,7 +49,7 @@ sudo apt update && sudo apt install \
 ## 📦 Package Creation
 
 ```bash
-ros2 pkg create allien_diff_bot --build-type ament_python --dependencies rclpy sensor_msgs geometry_msgs nav2_bringup gazebo_ros
+ros2 pkg create diff_robot_urdf --build-type ament_python --dependencies rclpy sensor_msgs geometry_msgs nav2_bringup gazebo_ros
 ```
 
 ---
@@ -71,7 +71,7 @@ ros2 pkg create allien_diff_bot --build-type ament_python --dependencies rclpy s
 🔍 Display and test in RViz:
 
 ```bash
-ros2 launch allien_diff_bot robot_state_publisher.launch.py
+ros2 launch diff_robot_urdf robot_state_publisher.launch.py
 ```
 
 Then add **RobotModel** and set the topic to `/robot_description`
@@ -86,13 +86,13 @@ Save the world to `world/home.world`
 Add your world to Gazebo:
 
 ```bash
-ros2 launch allien_diff_bot robot_world.launch.py
+ros2 launch diff_robot_urdf robot_world.launch.py
 ```
 
 Spawn the robot:
 
 ```bash
-ros2 launch allien_diff_bot robot_spawn.launch.py
+ros2 launch diff_robot_urdf robot_spawn.launch.py
 ```
 
 ---
@@ -130,7 +130,7 @@ Parameter file sourced from community GitHub repo (can customize)
 Launch Navigation Stack:
 
 ```bash
-ros2 launch allien_diff_bot navigation2.launch.py
+ros2 launch diff_robot_urdf navigation2.launch.py
 ```
 
 This internally loads `nav2_bringup/bringup_launch.py` and opens RViz with config.
@@ -141,11 +141,11 @@ This internally loads `nav2_bringup/bringup_launch.py` and opens RViz with confi
 
 | Purpose             | Command                                                       |
 | ------------------- | ------------------------------------------------------------- |
-| Load Gazebo world   | `ros2 launch allien_diff_bot robot_world.launch.py`           |
-| Spawn robot         | `ros2 launch allien_diff_bot robot_spawn.launch.py`           |
-| Publish robot state | `ros2 launch allien_diff_bot robot_state_publisher.launch.py` |
-| Combined launch     | `ros2 launch allien_diff_bot my_robot.launch.py`              |
-| Start Navigation    | `ros2 launch allien_diff_bot navigation2.launch.py`           |
+| Load Gazebo world   | `ros2 launch diff_robot_urdf robot_world.launch.py`           |
+| Spawn robot         | `ros2 launch diff_robot_urdf robot_spawn.launch.py`           |
+| Publish robot state | `ros2 launch diff_robot_urdf robot_state_publisher.launch.py` |
+| Combined launch     | `ros2 launch diff_robot_urdf my_robot.launch.py`              |
+| Start Navigation    | `ros2 launch diff_robot_urdf navigation2.launch.py`           |
 
 ---
 
@@ -154,9 +154,9 @@ This internally loads `nav2_bringup/bringup_launch.py` and opens RViz with confi
 1. Run these 3 terminals:
 
    ```bash
-   ros2 launch allien_diff_bot robot_world.launch.py
-   ros2 launch allien_diff_bot my_robot.launch.py
-   ros2 launch allien_diff_bot navigation2.launch.py
+   ros2 launch diff_robot_urdf robot_world.launch.py
+   ros2 launch diff_robot_urdf my_robot.launch.py
+   ros2 launch diff_robot_urdf navigation2.launch.py
    ```
 
 2. In **RViz2**:
